@@ -1,0 +1,102 @@
+.container{
+    margin: 0 130px;
+}
+.detail_text_title .date_author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail_text_title .date_author .author{
+   
+}
+.detail_text_title .date_author .author p{
+    padding: 5px 15px;
+    background-color: #102ea6;
+    color: white;
+    font-size: 14px;
+    border-radius: 50px;
+}
+.detail_text_title h2{
+    font-weight: 900;
+    line-height: 24px;
+    margin: 12px 0;
+    color: #102E9E;
+    text-transform: uppercase;
+}
+.detail_text_container p{
+    color: #686868;
+    font-size: 15px;
+    line-height: 1.41;
+    text-align: justify ;
+}
+.detail_text_title{
+    margin-bottom: 10px;
+}
+.detail_text_content img{
+    margin: 8px;
+    /* height: 500px;   */
+}
+.detail_text_content{
+    position: relative;
+}
+.detail_text_content .img:before{
+    content: "Bé Thư trong chuyến du lịch Nha Trang cùng gia đình, tháng 12/2023";
+    position: absolute;
+    bottom: -12px;
+    left: 24%;
+    font-style: italic;
+    color: #686868;
+}
+.detail_text_container h3{
+    line-height: 24px;
+    margin: 12px 0;
+    font-size: 20px;
+    color: #102ea6;
+}
+.detail_text_container .h3_2{
+    margin: 0 0 12px;
+}
+.hospital_address{
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.hospital_address p{
+    font-size: 15px;
+    color: #31708f;
+}
+.hospital_address p span{
+    font-size: 10px;
+}
+.hospital_address p:nth-child(3){
+    margin-left: 20px;
+}
+.hospital_address p:nth-child(4){
+    text-align: left;
+}
+.hospital_address p+p{
+    margin-bottom: 8px;
+}
+/* END HOSPITAL_ADDRESS */
+.latest_update{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: #686868;
+    background-color: #F0F2F1;
+}
+.latest_update_right,.latest_update_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latest_update_left i{
+    margin-right: 5px;
+}
+.latest_update_right p{
+    padding-right: 10px;
+}

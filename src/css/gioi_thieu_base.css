@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    height: 50vh;
+    background-color: #274DBEFC;
+}
+
+.footer_content {
+    width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 40px;
+
+    /* justify-content: space-around; */
+}
+
+.footer_item_3 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-top: 30px;
+}
+
+.footer_item {
+    width: 300px;
+    display: flex;
+    color: white;
+}
+
+.footer_item img {
+    width: 60%;
+    object-fit: contain;
+}
+
+.footer_item h2 {
+    display: inline-block;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    color: #ECF071;
+}
+
+.footer_item_title h3 {
+    margin-bottom: 10px;
+}
+
+.footer_content .footer_item:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.footer_content .footer_item:nth-child(2) .footer_item_title {
+    margin-bottom: 8px;
+
+}
+
+.footer_item_location {
+    margin: 20px 0;
+    position: relative;
+
+}
+
+.footer_item_location i,
+p {
+    display: inline-block;
+    color: white;
+}
+
+.footer_item_title hr {
+    color: white;
+}
+
+.footer_item_location p {
+    width: 90%;
+    padding-left: 20px;
+}
+
+.footer_item_location i {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer_item_title hr {
+    width: calc(100% - 30px);
+}
+
+.hcm_icon_number {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.hcm_icon_number i {
+    margin-right: 8px;
+    color: white;
+}
+
+.mail i,
+p {
+    display: inline-block;
+    color: white;
+}
+
+.footer_item_hcm {
+    margin-bottom: 10px;
+}
+
+.time-email p {
+    font-size: 14px;
+}
+
+.hcm_number a {
+    color: white;
+}
+
+.company_infor {
+    width: 1140px;
+    margin: 25px auto;
+}
+
+.company_infor p {
+    line-height: 26px;
+}
+.wrapper{
+    width: 1140px;
+    margin: auto;
+}
+hr{
+    width: 100%;
+    /* height: 8px; */
+    border: 2px solid white;
+    /* color: white; */
+}
+
+

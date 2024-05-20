@@ -1,0 +1,258 @@
+header {
+    background-color: #274DBEFC;
+
+}
+
+.header-nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.hospital_logo-link {
+    display: flex;
+}
+
+.header_content .header_logo {
+    width: 70px;
+}
+
+.hospital_logo_text {
+    display: inline-block;
+    line-height: 70px;
+}
+
+.header_content .hospital_logo h2 {
+    display: inline-block;
+    color: #ECF071;
+    margin-left: 5px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 16px 0;
+    color: white;
+}
+
+.header_content .logo_list ul {
+    list-style: none;
+
+}
+
+.header_content .logo_list li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.header_content .logo_list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.header_content .logo_list {
+    /* line-height: calc(111 / 16); */
+    padding: 10px 0;
+}
+
+.header_content .logo_list__location a {
+    color: #FFDF5F;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 16px;
+}
+
+.header_content .logo_list ul i {
+    color: #7CC5EA;
+}
+
+/* END HEADER */
+
+/* NAV START */
+.list {
+    /* margin: 10px; */
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* padding: 10px 0; */
+    /* line-height: 1.42857143; */
+}
+
+.list ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #337ab7;
+    padding: 10px 20px;
+}
+
+.list ul a:hover {
+    color: #23527c;
+    background-color: #eee;
+}
+
+.list ul li {
+    height: 100%;
+    display: inline-block;
+}
+
+/* END NAV */
+
+/* VALUES */
+.value_title {
+    text-align: center;
+    position: relative;
+}
+
+.value_title h2 {
+    position: relative;
+    color: #1691E2;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.value_title::after {
+    content: "";
+    /* display: block; */
+    height: 1px;
+    position: absolute;
+    bottom: -16px;
+    left: calc(50% - 35px);
+    border-bottom: 5px solid #5D5D5D;
+    width: 70px;
+}
+
+/* ACHIEVEMENT CSS */
+.achievement_thanh_tuu{
+    background-color: #f0f2f1;
+    padding-bottom: 20px;
+}
+.pagination_wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+.achievement_item_title{
+    height: 50px;
+    padding: 16px 0;
+    text-align: center;
+}
+.achievement_thanh_tuu .achievement_item,
+.achievement_thanh_tuu .achievement_item_2,
+.achievement_thanh_tuu .achievement_item_4,
+.achievement_thanh_tuu .achievement_item_6{
+    display: flex;
+    /* justify-content: flex-end; */
+    padding: 30px 0 20px;
+}
+
+.achievement_thanh_tuu .achievement_item_1,
+.achievement_thanh_tuu .achievement_item_3,
+.achievement_thanh_tuu .achievement_item_5,
+.achievement_thanh_tuu .achievement_item_7{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0 20px;
+}
+.achievement_item .achievement_item_img{
+    height: 100%;
+    width:100%;
+}
+.achievement_item_text_content-title{
+    display: flex;
+    text-align: left;
+}
+.achievement_item_text_content i{
+    margin-right: 6px;
+    font-size: 45px;
+    color: #54C3FF;
+    padding-top: 8px;
+}
+.achievement_item_text_content{
+    padding-bottom: 15px;
+}
+.achievement_item_text{
+    padding-left:16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-end; */
+    width: 33.33%;
+}
+.achievement_item_text_content .achievement_item_text_content-title{
+    text-decoration: none;
+}
+.achievement_item_text .achievement_item_text_content-title h2{
+    display: flex;
+    align-items: center;
+    color: #54C3FF;
+    height: 62px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.achievement_item .achievement_item_img{
+    padding: 0 8px;
+    width: 50%;
+    height: 397px;
+}
+.achievement_item_img img{
+    height: 100%;
+}
+.achievement_sub_text p{
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 1.43;
+    color: #686868;
+}
+.achievement .achievement_sub_text .view_detail{
+    color: #2698e2;
+}
+/* END ACHIEVEMENT CSS */
+/* CONTACT */
+.contact_us{
+    padding: 20px 0;
+}
+.contact_us_content{
+    display: flex;
+    color: white;
+    text-align: center;
+}
+.contact_us_left{
+    background-image: url(../img/bg-diachi.jpg);
+}
+.contact_us_left,.contact_us_right{
+    height: 80vh;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.contact_us_right {
+    background-image: url(../img/bg_ta2.jpg);
+}
+.contact_us_left,.contact_us_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_us_text h3{
+    margin-bottom: 5px;
+}
+.contact_us_text p{
+    margin-bottom: 5px;
+}
+.contact_us_text h2{
+    font-size: 30px;
+}
+/* END CONTACT */

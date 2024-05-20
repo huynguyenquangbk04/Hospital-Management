@@ -1,0 +1,27 @@
+main{
+    margin-top: 100px;
+}
+.patient_list .patient_list-title h3{
+    width: 40%;
+    margin: 0 auto;
+}
+.patient_list .patient_list_content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.patient_list .patient_list_content ul li{
+    display: inline-block;
+}
+/* .patient_list .patient_list_content ul li{
+    margin-left: 30px;
+} */
+.table{
+    text-align: center;
+}
+.table #trash_bin a{
+    color: red;
+}
+.addpatient .btn-add{
+    height: 40px;
+}

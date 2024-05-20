@@ -1,0 +1,28 @@
+.dropdownable {
+    position: relative;
+
+}
+.dropdown {
+    position: absolute;
+
+    left: 0;
+    width: 200px;
+    display: none;
+}
+.dropdownable:hover{
+color: #23527c;
+background-color: #eee;
+}
+.dropdownable:hover .dropdown{
+    display: block;
+}
+.dropdown a{
+    display: block;
+    padding: 0;
+    width: 100%;
+    transition: all .3s;
+}
+.dropdown a:hover{
+    background-color:#154f68;
+    color: white;
+}
